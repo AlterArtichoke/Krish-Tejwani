@@ -1,6 +1,5 @@
 import { Canvas } from '@react-three/fiber'
 import { Suspense, useRef, useEffect } from 'react'
-import Tiger from './Tiger'
 
 export default function Hero() {
   const cursor = useRef({ x: window.innerWidth, y: 0 }) // top right
@@ -16,13 +15,6 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden">
-      <Canvas camera={{ position: [0, 2, 8], fov: 50 }}>
-        <ambientLight intensity={0.5} />
-        <directionalLight position={[2, 5, 2]} />
-        <Suspense fallback={null}>
-          <Tiger target={cursor} />
-        </Suspense>
-      </Canvas>
 
       <div className="relative z-10">
         <h1 className="text-5xl md:text-7xl font-bold">Krish Tejwani</h1>
