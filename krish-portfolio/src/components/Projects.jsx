@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import TextPressure from './addn/TextPressure'
 
 const projects = [
   {
@@ -21,7 +22,10 @@ const projects = [
 export default function Projects() {
   return (
     <section className="py-20 px-6 max-w-6xl mx-auto">
-      <motion.h2 className="text-4xl font-bold mb-10">Projects</motion.h2>
+      <div style={{position: 'relative', height: '280px'}}>
+       <TextPressure text="Projects" flex={true} alpha={false} stroke={false} width={true} weight={true} italic={true} textColor="#ffffff" strokeColor="#ff0000" minFontSize={36} />
+      </div>
+      
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((proj, idx) => (
           <motion.div

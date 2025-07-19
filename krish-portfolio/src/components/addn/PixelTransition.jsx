@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 function PixelTransition({
   firstContent,
   secondContent,
-  gridSize = 49,
+  gridSize = 2,
   pixelColor = "currentColor",
   animationStepDuration = 0.3,
   className = "",
