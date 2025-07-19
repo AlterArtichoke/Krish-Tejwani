@@ -26,7 +26,7 @@ export default function Skills() {
                   height: "100%",
                   display: "grid",
                   placeItems: "center",
-                  backgroundColor: "#131275"
+                  backgroundColor: "#1f2937"
                 }}
               >
                 <p style={{ fontWeight: 600, fontSize: "1.8rem", color: "#ffffff", textAlign: "center" }}>
@@ -41,7 +41,7 @@ export default function Skills() {
                   height: "100%",
                   display: "grid",
                   placeItems: "center",
-                  backgroundColor: "#131275"
+                  backgroundColor: "#1f2937"
                 }}
               >
                 <p style={{ fontWeight: 900, fontSize: "1.8rem", color: "#ffffff" }}>
